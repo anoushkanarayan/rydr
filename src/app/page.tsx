@@ -36,12 +36,9 @@ export default function Home() {
             Share your unused car space and get paid for your daily commute.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 justify-start mt-8">
+        <div className="flex flex-col items-start mt-8">
           <button className="font-display px-8 py-4 text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-200 text-white shadow-lg hover:shadow-xl">
-            I'm a driver
-          </button>
-          <button className="font-display px-8 py-4 text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-200 text-white shadow-lg hover:shadow-xl">
-            I'm a rider
+            Get the App
           </button>
         </div>
       </main>
