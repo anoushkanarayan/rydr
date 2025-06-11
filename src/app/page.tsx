@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Sticky Menu */}
-      <nav className="sticky top-0 z-50 bg-[#111827]/80 backdrop-blur flex items-center justify-between w-full px-[7%] py-4">
+      <nav className="sticky top-0 z-50 bg-[#111827]/80 backdrop-blur flex items-center justify-between w-full px-[7%] py-5">
         <div className="w-32">
           <RydrLogo className="w-full h-auto" />
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-start mt-8">
           <button className="font-display px-8 py-4 text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-200 text-white shadow-lg hover:shadow-xl">
-            Get the App
+            Join the waitlist
           </button>
         </div>
       </main>
