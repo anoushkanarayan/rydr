@@ -38,30 +38,30 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center sm:items-start mt-6 sm:mt-8 w-full sm:w-auto">
           <button className="font-display px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-200 text-white shadow-lg hover:shadow-xl w-full sm:w-auto">
-            Get the App
+            Join the waitlist
           </button>
         </div>
       </main>
 
       {/* Wave Transition */}
-      <div className="w-full overflow-hidden leading-none">
+      <div className="w-full overflow-hidden leading-none -mb-1">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="block w-full h-12 sm:h-24">
           <path d="M0,40 C360,120 1080,0 1440,80 L1440,120 L0,120 Z" fill="#fff" />
         </svg>
       </div>
 
       {/* How It Works Section */}
-      <section ref={howItWorksRef} className="bg-white min-h-[60vh] w-full py-10 sm:py-20 px-2 sm:px-0">
+      <section ref={howItWorksRef} className="bg-white min-h-[60vh] w-full pt-10 sm:pt-20 pb-10 sm:pb-20 px-2 sm:px-0">
         <div className="w-full sm:w-[95%] sm:max-w-4xl mx-auto flex flex-col items-center">
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 border-b border-gray-200 mb-8 w-full justify-center items-center">
+          <div className="flex flex-row gap-2 sm:gap-8 border-b border-gray-200 mb-8 w-full justify-center items-center">
             <button
-              className={`pb-2 text-base sm:text-lg font-semibold transition-colors ${tab === 'drivers' ? 'text-blue-600 border-b-4 border-blue-500' : 'text-gray-400 border-b-4 border-transparent'} font-display w-full sm:w-auto text-center`}
+              className={`pb-2 px-4 sm:px-6 py-2 text-base sm:text-lg font-semibold transition-colors rounded-t-md rounded-b-none sm:rounded-t-none sm:rounded-l-md sm:rounded-r-none ${tab === 'drivers' ? 'text-blue-600 border-b-4 border-blue-500 bg-blue-50' : 'text-gray-400 border-b-4 border-transparent bg-transparent'} font-display w-full sm:w-auto text-center`}
               onClick={() => setTab('drivers')}
             >
               For Drivers
             </button>
             <button
-              className={`pb-2 text-base sm:text-lg font-semibold transition-colors ${tab === 'riders' ? 'text-blue-600 border-b-4 border-blue-500' : 'text-gray-400 border-b-4 border-transparent'} font-display w-full sm:w-auto text-center`}
+              className={`pb-2 px-4 sm:px-6 py-2 text-base sm:text-lg font-semibold transition-colors rounded-t-md rounded-b-none sm:rounded-t-none sm:rounded-r-md sm:rounded-l-none ${tab === 'riders' ? 'text-blue-600 border-b-4 border-blue-500 bg-blue-50' : 'text-gray-400 border-b-4 border-transparent bg-transparent'} font-display w-full sm:w-auto text-center`}
               onClick={() => setTab('riders')}
             >
               For Riders
