@@ -29,10 +29,10 @@ export default function Home() {
       {/* Hero Section */}
       <main className="min-h-[70vh] bg-transparent flex flex-col items-center sm:items-start justify-center w-full sm:w-[95%] sm:max-w-7xl mx-auto pt-8 px-4 sm:px-0">
         <div className="space-y-3 sm:space-y-4 w-full sm:w-auto">
-          <h1 className="font-display text-3xl xs:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent animate-gradient uppercase tracking-wide whitespace-normal sm:whitespace-nowrap text-center sm:text-left">
+          <h1 className="font-display text-3xl xs:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent animate-gradient uppercase tracking-wide text-center sm:text-left">
             Cash in on your commute
           </h1>
-          <p className="text-base xs:text-lg md:text-2xl text-gray-300 font-light text-center sm:text-left whitespace-normal">
+          <p className="text-base xs:text-lg md:text-2xl text-gray-300 font-light text-center sm:text-left">
             Share your unused car space and get paid for your daily commute.
           </p>
         </div>
