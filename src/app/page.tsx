@@ -44,14 +44,14 @@ export default function Home() {
       </main>
 
       {/* Wave Transition */}
-      <div className="w-full overflow-hidden leading-none -mb-1">
+      <div className="w-full overflow-hidden leading-none -mb-4">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="block w-full h-12 sm:h-24">
           <path d="M0,40 C360,120 1080,0 1440,80 L1440,120 L0,120 Z" fill="#fff" />
         </svg>
       </div>
 
       {/* How It Works Section */}
-      <section ref={howItWorksRef} className="bg-white min-h-[60vh] w-full pt-10 sm:pt-20 pb-10 sm:pb-20 px-4 sm:px-0">
+      <section ref={howItWorksRef} className="bg-white min-h-[60vh] w-full pt-0 sm:pt-8 pb-10 sm:pb-20 px-4 sm:px-0">
         <div className="w-full sm:w-[95%] sm:max-w-4xl mx-auto flex flex-col items-center">
           <div className="flex flex-row gap-2 sm:gap-8 border-b border-gray-200 mb-8 w-full justify-center items-center">
             <button
