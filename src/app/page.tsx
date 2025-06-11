@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* How It Works Section */}
       <section ref={howItWorksRef} className="bg-white min-h-[60vh] w-full pt-0 sm:pt-8 pb-10 sm:pb-20 px-4 sm:px-0">
-        <div className="w-full sm:w-[95%] sm:max-w-4xl mx-auto flex flex-col items-center">
+        <div className="w-full sm:w-[95%] sm:max-w-4xl mx-auto flex flex-col items-center mt-6 sm:mt-0">
           <div className="flex flex-row gap-2 sm:gap-8 border-b border-gray-200 mb-8 w-full justify-center items-center">
             <button
               className={`pb-2 px-4 sm:px-6 py-2 text-base sm:text-lg font-semibold transition-colors rounded-t-md rounded-b-none sm:rounded-t-none sm:rounded-l-md sm:rounded-r-none ${tab === 'drivers' ? 'text-blue-600 border-b-4 border-blue-500' : 'text-gray-400 border-b-4 border-transparent'} font-display w-full sm:w-auto text-center`}
